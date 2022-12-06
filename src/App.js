@@ -8,7 +8,9 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Nav from './components/Nav';
 
-const [pageIndex, setPageIndex] = useState(0);
+function App() {
+    
+    const [pageIndex, setPageIndex] = useState(0);
 
 return (
     <div className="App">
@@ -31,5 +33,6 @@ return (
         )}
     </div>
 );
+}
 
 export default App;
