@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+
+:root {
+    --med-blue: #a2d2ff;
+    --lit-blue: #bde0fe;
+    --med-pink: #ffafcc;
+    --lit-pink: #ffc8dd;
+    --lilac: #ffc8dd;
+}
+
+body {
+    background-color: var(--lit-blue);
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Nav = ({ showAbout, showProjects, showContact, showResume}) => {
     return (
-        <ul class="nav justify-content-end" className="nav-tabs" stlye={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <ul class="nav justify-content-end" stlye={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
        <li class="nav-item">
           <a class="nav-link" href="#About" onClick={showAbout}>About</a>
         </li>
