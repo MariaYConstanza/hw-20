@@ -2,11 +2,9 @@ import React from 'react';
 
 const Nav = ({ showAbout, showProjects, showContact, showResume}) => {
     return (
-        <ul className="nav-tabs">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#about" 
-          onClick={() => handlePageChange('About')}
-          className={showAbout === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
+        <ul class="nav justify-content-end" className="nav-tabs" stlye={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+       <li class="nav-item">
+          <a class="nav-link" href="#About" onClick={showAbout}>About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#projects" onClick={showProjects}>Projects</a>
@@ -22,3 +20,9 @@ const Nav = ({ showAbout, showProjects, showContact, showResume}) => {
 }
 
 export default Nav;
+
+/* <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#about" 
+          onClick={() => handlePageChange('About')}
+          className={showAbout === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
+        </li> */
