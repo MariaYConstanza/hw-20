@@ -2,13 +2,22 @@ import React from 'react';
 
 const Nav = ({ showAbout, showProjects, showContact, showResume}) => {
     return (
-        <div style={{ display: 'flex', justifytContent: 'center', 
-        alignItems: 'center'}}>
-            <h1 onClick={showAbout}>About</h1>
-            <h1 onclick={showProjects}>Portfolio</h1>
-            <h1 onClick={showContact}>Contact</h1>
-            <h1 onClick={showResume}>Resume</h1>
-        </div>
+        <ul className="nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#about" 
+          onClick={() => handlePageChange('About')}
+          className={showAbout === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects" onClick={showProjects}>Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact" onClick={showContact}>Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#resume" onClick={showResume}>Resume</a>
+        </li>
+      </ul>
     )
 }
 

@@ -9,7 +9,7 @@ import Resume from './components/Resume';
 import Nav from './components/Nav';
 
 function App() {
-    
+
     const [pageIndex, setPageIndex] = useState(0);
 
 return (
