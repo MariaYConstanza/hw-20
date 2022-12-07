@@ -14,10 +14,52 @@
     --lilac: #cdb4db;
 }
 
+/* Banner background image */
+.banner {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(../assets/NY-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Body color */
 body {
     background-color: var(--lit-pink);
 }
 
+/* Navigation Bar */
 .nav-bar {
     background-color: var(--med-pink);
+}
+
+/* Footer styling */
+footer ul{
+    list-style-type: none;
+    margin-top: 20cm;
+    text-align: center;
+    margin-right: 1cm;
+}
+
+footer ul li{
+    display: inline-block;
+}
+
+footer a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: var(--med-blue);
+    text-decoration: underline var(--lilac);
+    text-underline-offset: 5px;
+    margin-left: 20px;
+}
+
+footer a:hover {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: var(--lit-blue);
+    text-decoration: underline var(--lilac);
+    text-underline-offset: 5px;
+    margin-left: 20px;
 }

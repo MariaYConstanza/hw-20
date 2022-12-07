@@ -6,8 +6,9 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
-import './App.css'
+import './App.css';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -32,6 +33,7 @@ return (
         ) : (
             <About />
         )}
+        < Footer/>
     </div>
 );
 }
