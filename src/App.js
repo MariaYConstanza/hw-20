@@ -9,6 +9,7 @@ import Resume from './components/Resume';
 import './App.css';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+import Header from './components/Header'
 
 function App() {
 
@@ -22,6 +23,7 @@ return (
         showContact={() => setPageIndex(2)}
         showResume={() => setPageIndex(3)}
         />
+        <Header />
         {pageIndex === 0 ? (
             <About />
         ) : pageIndex === 1 ? (
