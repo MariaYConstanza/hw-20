@@ -12,6 +12,7 @@
     --med-pink: #ffafcc;
     --lit-pink: #ffc8dd;
     --lilac: #cdb4db;
+    --mint: #eff7f6;
 }
 
 /* Banner background image */
@@ -26,7 +27,7 @@
 
 /* Body color */
 body {
-    background-color: var(--lit-pink);
+    background-color: var(--mint);
 }
 
 /* Navigation Bar */
