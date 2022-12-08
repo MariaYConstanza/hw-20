@@ -1,25 +1,24 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Social Media
+# Personal Portfolio with ReactJS
 
 ## Description
-As a developer creating a databse that can apply full CRUD to a social network interface. The media is able to interacter with other users simply by adding and removing friends whenever the user like. User's can also create reactions/thoughts and do just the same of adding or removing their inputs. 
+As a developer creating a portfolio of using the scripting language ReactJS. The portfolio is designed to display all of the user's personal projects of achievements,
+a biography, contact information to reached at, and a resume/cover-letter. The user can use this portfolio to present to potential employers during interviews or meet greets.
 
 ## Usage
 - NPM documentation/packages
-- MongoDB
-- Express
-- Mongoose
+- Bootstrap
 - MDN
 - W3schools
 
 ## Installation
-- `npm i express`
-- `npm i mongoose`
+- `npm install`
 - `npm start`
+- `localhost:3000`
 
-## Screen Video
-N/A
+## Screenshot
+![react portfolio](https://user-images.githubusercontent.com/112887914/206327979-885f3063-10b1-4a72-ab6a-c082a79937e9.png)
 
 ## Licenses
-Copyright https://github.com/MariaYConstanza/social-networking All Rights Reserved
+Copyright https://github.com/MariaYConstanza/react-portfolio All Rights Reserved
