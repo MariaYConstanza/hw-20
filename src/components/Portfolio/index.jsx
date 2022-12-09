@@ -41,7 +41,7 @@ const Portfolio = () => {
                 <img src={Anime} class="card-img-top" alt="anime screenshot" style={styles.img}></img>
                 <div class="card-body">
                     <a href="https://anime-tracker-11-2022.herokuapp.com/">
-                        <p class="card-text" styles={styles.p}>Node/MySQL/Express Project: 2 Anime Tracker</p>
+                        <p class="card-text" styles={styles.p}>NodeJS/MySQL/Express Project: 2 Anime Tracker</p>
                     </a>
                 </div>
             </div>
