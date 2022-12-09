@@ -64,3 +64,19 @@ footer a:hover {
     text-underline-offset: 5px;
     margin-left: 20px;
 }
+
+/* Card Bodies */
+.card1 {
+    margin-left: 10cm;
+    margin-top: 2cm;
+}
+
+.card2 {
+    margin-left: 20cm;
+    margin-top: -7.7cm;
+}
+
+.card3 {
+    margin-left: 30cm;
+    margin-top: -7.7cm;
+}
