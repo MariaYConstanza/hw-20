@@ -17,6 +17,9 @@ a biography, contact information to reached at, and a resume/cover-letter. The u
 - `npm start`
 - `localhost:3000`
 
+## Deployed
+https://mariayconstanza.github.io/react-portfolio/
+
 ## Screenshot
 ![react portfolio](https://user-images.githubusercontent.com/112887914/206327979-885f3063-10b1-4a72-ab6a-c082a79937e9.png)
 
