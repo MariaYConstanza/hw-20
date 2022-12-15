@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.bc90b788.css",
+    "main.js": "/react-portfolio/static/js/main.055651d3.js",
+    "static/media/NY-background.jpg": "/react-portfolio/static/media/NY-background.24a158957abf1773fe1c.jpg",
+    "static/media/surfer_screenshot.png": "/react-portfolio/static/media/surfer_screenshot.36ada992c0ace967690b.png",
+    "static/media/anime-tracker-splash.png": "/react-portfolio/static/media/anime-tracker-splash.77fea02d3258abf27c6c.png",
+    "static/media/coming-soon.jpg": "/react-portfolio/static/media/coming-soon.b95ceba41a7a665f4502.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.bc90b788.css.map": "/react-portfolio/static/css/main.bc90b788.css.map",
+    "main.055651d3.js.map": "/react-portfolio/static/js/main.055651d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc90b788.css",
+    "static/js/main.055651d3.js"
+  ]
+}
