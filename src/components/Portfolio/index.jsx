@@ -2,7 +2,7 @@ import React from 'react';
 // import './App.css';
 import Surfer from './assets/surfer_screenshot.png';
 import Anime from './assets/anime-tracker-splash.png';
-import Soon from './assets/coming-soon.jpg';
+import Codemates from './assets/codemates-landing.png';
 
 const styles = {
     h1: {
@@ -46,9 +46,11 @@ const Portfolio = () => {
                 </div>
             </div>
             <div class="card card3" style={styles.card}>
-                <img src={Soon} class="card-img-top" alt="coming soon" style={styles.img}></img>
+                <img src={Codemates} class="card-img-top" alt="coming soon" style={styles.img}></img>
                 <div class="card-body">
-                    <p class="card-text">MERN/ReactJS/State Project: 3 Coming Soon</p>
+                    <a href="https://anime-tracker-11-2022.herokuapp.com/">
+                        <p class="card-text" styles={styles.p}>MERN/ReactJS/State Project: 3 Codemates</p>
+                    </a>
                 </div>
             </div>
         </div>
