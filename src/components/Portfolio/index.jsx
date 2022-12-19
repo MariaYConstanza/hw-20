@@ -48,7 +48,7 @@ const Portfolio = () => {
             <div class="card card3" style={styles.card}>
                 <img src={Codemates} class="card-img-top" alt="coming soon" style={styles.img}></img>
                 <div class="card-body">
-                    <a href="https://anime-tracker-11-2022.herokuapp.com/">
+                    <a href="https://codemates-app.herokuapp.com/">
                         <p class="card-text" styles={styles.p}>MERN/ReactJS/State Project: 3 Codemates</p>
                     </a>
                 </div>
